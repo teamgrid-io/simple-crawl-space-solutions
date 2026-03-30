@@ -32,7 +32,7 @@ const dangers = [
 
 export default function DangersSection() {
   return (
-    <section className="bg-white my-20 px-4">
+    <section className="bg-white mt-20 px-4">
       <div className="max-w-[1248px] mx-auto px-[40px]">
 
         {/* Heading */}

@@ -6,7 +6,7 @@ export default function SecureHomeCTA() {
 
       {/* Decorative leaf shapes */}
       <div className="absolute left-0 top-0 h-full w-64 pointer-events-none select-none">
-        <Image src="/Vector.png" alt="Decorative Leaf" width={200} height={200} />
+        <Image src="/Vector.png" alt="Decorative Leaf" width={200} height={200} style={{ width: 'auto', height: 'auto' }} />
       </div>
 
       {/* Content */}

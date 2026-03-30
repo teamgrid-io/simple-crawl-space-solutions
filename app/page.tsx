@@ -1,27 +1,23 @@
-import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import DangersSection from "@/components/DangersSection";
-import SolutionsSection from "@/components/SolutionsSection";
-import ImageSection from "@/components/ImageSection";
-import SimpleShieldSection from "@/components/SimpleSheild";
-import SolutionForEveryNeedsSection from "@/components/SolutionForEveryNeeds";
-import InstallationProcessSection from "@/components/InstallationProcess";
-import SecureHomeSection from "@/components/SecureHomeCta";
-import Footer from "@/components/Footer";
+import HeroSection from "@/components/Sections/HomePage/HeroSection";
+import DangersSection from "@/components/Sections/HomePage/DangersSection";
+import SolutionsSection from "@/components/Sections/HomePage/SolutionsSection";
+import ImageSection from "@/components/Sections/HomePage/ImageSection";
+import SimpleShieldSection from "@/components/Sections/HomePage/SimpleSheild";
+import SolutionForEveryNeedsSection from "@/components/Sections/HomePage/SolutionForEveryNeeds";
+import InstallationProcessSection from "@/components/Sections/HomePage/InstallationProcess";
+import SecureHomeSection from "@/components/Sections/HomePage/SecureHomeCta";
+
 export default function Home() {
   return (
-      <div className="">
-        <Navbar />
-        <HeroSection />
-        <DangersSection />
-        <SolutionsSection />
-        <ImageSection />
-        <SimpleShieldSection />
-        <SolutionForEveryNeedsSection />
-        <InstallationProcessSection />
-        <SecureHomeSection />
-        <Footer />
-      </div>
+    <>
+      <HeroSection />
+      <DangersSection />
+      <SolutionsSection />
+      <ImageSection />
+      <SimpleShieldSection />
+      <SolutionForEveryNeedsSection />
+      <InstallationProcessSection />
+      <SecureHomeSection />
+    </>
   );
 }

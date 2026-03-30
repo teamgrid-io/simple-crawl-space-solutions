@@ -4,33 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function HeroSection() {
-  const dangers = [
-    {
-      title: "Mold Growth",
-      desc: "Mold spreads through the crawl space and enters the air you breathe.",
-    },
-    {
-      title: "Poor Air Quality",
-      desc: "Air from the crawl space carries mold, dust, and allergens into your home.",
-    },
-    {
-      title: "Wood Rot",
-      desc: "Moisture breaks down wood supports and leads to sagging floors.",
-    },
-    {
-      title: "High Energy Bills",
-      desc: "Unsealed crawl spaces let in outside air and strain your HVAC system.",
-    },
-    {
-      title: "Pests & Rodents",
-      desc: "Mice, termites, and insects damage wiring, insulation, and wood.",
-    },
-    {
-      title: "Flooding & Standing Water",
-      desc: "Water collects under the home and weakens the foundation over time.",
-    },
-  ];
-
   return (
     <>
       {/* ── HERO ── */}
@@ -40,6 +13,7 @@ export default function HeroSection() {
           src="/house.png" /* replace with your actual image path */
           alt="Crawl space home exterior"
           fill
+          sizes="100vw"
           className="object-cover object-center"
           priority
         />

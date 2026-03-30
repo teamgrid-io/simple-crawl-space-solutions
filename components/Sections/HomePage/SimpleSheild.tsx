@@ -46,7 +46,7 @@ export default function SimpleShieldSection() {
   };
 
   return (
-    <section className="bg-white my-20 px-4">
+    <section className="bg-white mt-20 px-4">
       <div className="max-w-4xl mx-auto">
 
         {/* Heading */}

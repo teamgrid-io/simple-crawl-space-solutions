@@ -58,8 +58,8 @@ export default function Footer() {
             </g>
             <defs>
               <linearGradient id="paint0_linear_2328_13" x1="20.3541" y1="16.6989" x2="36.0918" y2="40.8047" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#F4C953" />
-                <stop offset="1" stop-color="#ED9C4A" />
+                <stop stopColor="#F4C953" />
+                <stop offset="1" stopColor="#ED9C4A" />
               </linearGradient>
               <clipPath id="clip0_2328_13">
                 <rect width="177" height="63" fill="white" />
